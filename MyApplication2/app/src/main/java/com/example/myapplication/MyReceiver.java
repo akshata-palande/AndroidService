@@ -9,6 +9,5 @@ public class MyReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         Intent myIntent = new Intent(context, backgroundService.class);
         context.startService(myIntent);
-
     }
 }
